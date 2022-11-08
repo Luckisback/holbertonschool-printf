@@ -28,10 +28,12 @@ int _printf(const char *format, ...)
 		{
 			for (j = 0; prt[j].data != NULL; j++)
 			{
+				if (i > len)
+					break;
 				if (format[i + 1] == *(prt[j].data))
 				{
 					prt[j].f(arg);
-					i = i + 2;
+					i += 2;
 				}
 			}
 		}
