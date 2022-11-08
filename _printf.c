@@ -17,11 +17,27 @@ int _printf(const char *format, ...)
 		{"%", print_percent},
 		{NULL, NULL}
 	};
+	va_list arg;
+	int i = 0, j = 0;
+
+	va_start(arg, format);
+	for (i = 0; format[i]; i++)
+	{
+		if (format[i] == '%')
+		{
+			for (j = 0; prt[j].data != NULL; j++)
+			{
+				if (format[i + 1] == *(prt[j].data))
+					prt[j].f(arg);
+			}
+		}
+	}
+	
 	/**
 	 * Initialiser une struct en associant un character à une fonction
 	 *
 	 * va_list arg; Déclarer une va_list arg
 	 * va_start (arg, format);
 	 * trouver les bonnes conditions pour parcourir la struct et call la fonction print associée
-/*
+	 */
 }

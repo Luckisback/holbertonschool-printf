@@ -21,16 +21,14 @@
 
 Secrets of printf: 
 
-[*Secrets of printf:*](https://intranet.hbtn.io/rltoken/Jr19IHYnhfJl1V-TWorIOg). 
-[*Approaching a Project*](https://intranet.hbtn.io/concepts/881).
-[*Group Projects*](https://intranet.hbtn.io/concepts/893).
-[*Pair Programming - How To*](https://intranet.hbtn.io/concepts/894).
-[*Flowcharts*](https://intranet.hbtn.io/concepts/895).
+* [*Secrets of printf:*](https://intranet.hbtn.io/rltoken/Jr19IHYnhfJl1V-TWorIOg). 
+* [*Approaching a Project*](https://intranet.hbtn.io/concepts/881).
+* [*Group Projects*](https://intranet.hbtn.io/concepts/893).
+* [*Pair Programming - How To*](https://intranet.hbtn.io/concepts/894).
+* [*Flowcharts*](https://intranet.hbtn.io/concepts/895).
 
 
 
 	# :spider_web::fist_raised:
 
-```
-
-
+`
