@@ -37,7 +37,7 @@ int _printf(const char *format, ...)
 				}
 			}
 		}
-		if (format[i] != '%')
+		if (format[i] != '%' && i <= len)
 			_putchar(format[i]);
 	}
 	va_end(arg);
