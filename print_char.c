@@ -7,5 +7,7 @@
 
 void print_char(va_list arg)
 {
-	write(1, arg, 1);/* affichage du caractere reçu */
+	char c;
+	c = va_arg(arg, int);
+	write(1, c, 1);/* affichage du caractere reçu */
 }

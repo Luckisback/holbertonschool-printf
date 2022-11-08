@@ -32,12 +32,4 @@ int _printf(const char *format, ...)
 			}
 		}
 	}
-	
-	/**
-	 * Initialiser une struct en associant un character à une fonction
-	 *
-	 * va_list arg; Déclarer une va_list arg
-	 * va_start (arg, format);
-	 * trouver les bonnes conditions pour parcourir la struct et call la fonction print associée
-	 */
 }

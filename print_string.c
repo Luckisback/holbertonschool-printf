@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void print_string(va_list arg, char *str)
+void print_string(va_list arg)
 {
 	int length = 0;
 	int i = 0;

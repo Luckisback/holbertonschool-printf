@@ -18,7 +18,7 @@ typedef struct print
 } print_t;
 
 int _printf(const char *format, ...);
-void print_string(va_list arg, char *str);
+void print_string(va_list arg);
 void print_char(va_list arg);
 void print_percent(va_list arg);
 
