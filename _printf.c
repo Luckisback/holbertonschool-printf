@@ -19,6 +19,7 @@ int _printf(const char *format, ...)
 	};
 	va_list arg;
 	int i = 0, j = 0;
+	int len = _strlen(format);
 
 	va_start(arg, format);
 	for (i = 0; format[i]; i++)
@@ -28,8 +29,15 @@ int _printf(const char *format, ...)
 			for (j = 0; prt[j].data != NULL; j++)
 			{
 				if (format[i + 1] == *(prt[j].data))
+				{
 					prt[j].f(arg);
+					i = i + 2;
+				}
 			}
 		}
+		if (format[i] != '%')
+			_putchar(format[i]);
 	}
+	va_end(arg);
+	return (len);
 }
