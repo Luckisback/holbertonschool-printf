@@ -13,5 +13,5 @@ int _strlen(const char *format)
 
 	while (format[len] != '\0')
 		len++;
-	return (len - 1);
+	return (len);
 }
