@@ -6,7 +6,8 @@
 * Make sure that all options work well together.
 
 #### Authorized functions and macros
-```
+
+
 1. write   : Is one of the most basic routines provided, which write data from a buffer declared by the user to a given device, such as a file
 2. malloc  : The function allocates memory and leaves the memory uninitialized
 3. free    : The C library function void free(void *ptr) deallocates the memory previously allocated
@@ -15,7 +16,7 @@
 6. va_arg  : Retrieve an argument
 7. va_copy : Copy contents of one va_list to another
 8. va_end  : Free a va_list
-
+``` 
 
 ## Special Characters
 
