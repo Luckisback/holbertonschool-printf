@@ -1,0 +1,40 @@
+.\"
+.\"
+
+.TH  _PRINTF 11-09-2022 "Version 1.0" "_Printf Manual"
+
+.SH _PRINTF
+
+%c print a single character
+
+%d print a decimal (base 10) number
+
+%i print a decimal (base 10) number
+
+%s print a string of characters
+
+%%  Print percent (%) 
+
+.\"
+.\"
+.SH Description: The Argument List
+
+When printf processes its arguments, it starts 
+printing the characters it finds in the first argument, 
+one by one. When it finds a percent it knows it 
+has a format specification. It goes to the next ar- 
+gument and uses its value, printing it according to 
+that format specification. It then returns to printing 
+a character at a time (from the first argument). 
+It is okay to include more than one format speci- 
+fication in the printf string. In that case, the first 
+format specification goes with the first additional ar- 
+gument, second goes with second, and so forth. Here 
+is an example:
+int x = 5, y = 10;
+printf ( "x is %d and y is %d\n", x, y );
+
+
+
+.SH LICENCE
+Copyright (c) 2022 by T. Borde & jla BILO
