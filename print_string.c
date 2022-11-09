@@ -16,7 +16,7 @@ int print_string(va_list arg)
 
 	str = va_arg(arg, char*);
 	if (str == NULL)
-		s = ("null");
+		str = ("null");
 	for (i = 0; str[i]; i++)
 	{
 		length++;
