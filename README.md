@@ -1,4 +1,4 @@
-### `Printf Project` :dart:
+## `C - Printf Project` :dart:
 
 * A function that produces output according to a format.
 * Handle the following conversion specifiers
@@ -6,15 +6,15 @@
 * Make sure that all options work well together.
 
 #### Authorized functions and macros
-
-1. write
-2. malloc
-3. free
-4. va_list
-5. va_start
-6. va_end
-7. va_copy
-8. va_arg
+```
+1. write   : Is one of the most basic routines provided, which write data from a buffer declared by the user to a given device, such as a file
+2. malloc  : The function allocates memory and leaves the memory uninitialized
+3. free    : The C library function void free(void *ptr) deallocates the memory previously allocated
+4. va_list : type for iterating arguments
+5. va_start: Start iterating arguments with a va_list
+6. va_arg  : Retrieve an argument
+7. va_copy : Copy contents of one va_list to another
+8. va_end  : Free a va_list
 
 
 ## Special Characters
@@ -42,6 +42,7 @@ Secrets of printf:
 
 ```
 
- :spider_web: :fist_raised:
+ 
 
 ```
+:spider_web: :fist_raised:
