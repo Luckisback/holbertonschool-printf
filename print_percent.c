@@ -6,9 +6,9 @@
  * @arg: arg
  * Return: void
  */
-
-void print_percent(va_list arg)
+int print_percent(va_list arg)
 {
 	(void) arg;
 	write(1, "%", 1);
+	return (1);
 }

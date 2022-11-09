@@ -7,14 +7,19 @@
  * Return: void
  */
 
-void print_string(va_list arg)
+int print_string(va_list arg)
 {
 	int length = 0;
 	int i = 0;
 	char *str;
+	int count;
 
 	str = va_arg(arg, char*);
 	for (i = 0; str[i]; i++)
+	{
 		length++;
+		count++;
+	}
 	write(1, str, length);
+	return (count);
 }
