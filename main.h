@@ -23,5 +23,6 @@ int print_char(va_list arg);
 int print_percent(va_list arg);
 int _strlen(const char *format);
 int _putchar(char c);
+int _printflong(const char *format, print_t prt[], va_list arg);
 
 #endif
