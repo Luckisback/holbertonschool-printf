@@ -19,12 +19,13 @@
 
 ## Special Characters
 
-| special characters| center columns|
-| -----------------:|:-----------------------:|
+| special characters| meaning|   
+| :----------------:|:-----------------------:|
 |       %c          | print a single character|
-|       %s          |
-|       %d          |
-|       %i          |      |  
+|       %s          | print a string of characters|
+|       %d          | print a decimal (base 10) number|
+|       %i          | print a string of characters
+|       %%          | print a percent sign (\% also works)|  
 
 ![Flowcharts of the _printf created.](Images/Projet_printf_JL_Thomas.html "Flowcharts" )    :printer: 
 
