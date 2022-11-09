@@ -16,6 +16,16 @@
 7. va_copy
 8. va_arg
 
+
+## Special Characters
+
+| special characters| center columns|
+| -----------------:|:-----------------------:|
+|       %c          | print a single character|
+|       %s          |
+|       %d          |
+|       %i          |      |  
+
 ![Flowcharts of the _printf created.](Images/Projet_printf_JL_Thomas.html "Flowcharts" )    :printer: 
 
 ### `Resources`   :earth_africa:
@@ -29,7 +39,8 @@ Secrets of printf:
 - [*Flowcharts*](https://intranet.hbtn.io/concepts/895).
 
 
+```
 
  :spider_web: :fist_raised:
 
-`
+```
