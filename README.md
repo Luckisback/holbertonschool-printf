@@ -1,22 +1,22 @@
 ### `Printf Project` :dart:
 
-* Item 1
-* Item 2
-* Item 2a
-* Item 2b
+* A function that produces output according to a format.
+* Handle the following conversion specifiers
+* A man page for your function.
+* Make sure that all options work well together.
 
 #### Authorized functions and macros
 
-1. - write
-2. - malloc
-3. - free
-4. - va_list
-5. - va_start
-6. - va_end
-7. - va_copy
-8. - va_arg
+1. write
+2. malloc
+3. free
+4. va_list
+5. va_start
+6. va_end
+7. va_copy
+8. va_arg
 
-![Flowcharts of the _printf created.]( :Projet_printf_JL_Thomas.png: "Flowcharts" )  :printer: 
+![Flowcharts of the _printf created.]( Images/Projet_printf_JL_Thomas.png "Flowcharts" )    :printer: 
 
 ### `Resources`   :earth_africa:
 
