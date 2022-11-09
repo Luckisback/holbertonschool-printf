@@ -16,16 +16,17 @@
 7. - va_copy
 8. - va_arg
 
+![Flowcharts of the _printf created.](/image/Projet_printf_JL_Thomas.png ":printer:")
 
 ##### `Resources`   :earth_africa:
 
 Secrets of printf: 
 
-* [*Secrets of printf:*](https://intranet.hbtn.io/rltoken/Jr19IHYnhfJl1V-TWorIOg). 
-* [*Approaching a Project*](https://intranet.hbtn.io/concepts/881).
-* [*Group Projects*](https://intranet.hbtn.io/concepts/893).
-* [*Pair Programming - How To*](https://intranet.hbtn.io/concepts/894).
-* [*Flowcharts*](https://intranet.hbtn.io/concepts/895).
+. [*Secrets of printf:*](https://intranet.hbtn.io/rltoken/Jr19IHYnhfJl1V-TWorIOg). 
+. [*Approaching a Project*](https://intranet.hbtn.io/concepts/881).
+. [*Group Projects*](https://intranet.hbtn.io/concepts/893).
+. [*Pair Programming - How To*](https://intranet.hbtn.io/concepts/894).
+. [*Flowcharts*](https://intranet.hbtn.io/concepts/895).
 
 
 
