@@ -2,7 +2,9 @@
 
 /**
  * print_char - a function that prints every char entered
+ * Description: prints a char
  * @arg: Argument entered by a user
+ * Return: length of char (1)
  */
 
 int print_char(va_list arg)

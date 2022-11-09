@@ -1,5 +1,16 @@
 #include "main.h"
 
+/**
+ * _printflong - prints output according to a format
+ * Description: prints output according to a format:
+ * s prints a string, c prints a character, % prints a percent
+ * @format: type of data we need to print
+ * @prt: struct we iterate through
+ * @arg: arg we iterate through
+ * Return: the number of characters printed (excluding the
+ * null byte)
+ */
+
 int _printflong(const char *format, print_t prt[], va_list arg)
 {
 	int i;
