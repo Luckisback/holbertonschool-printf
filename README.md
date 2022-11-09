@@ -16,7 +16,7 @@
 7. - va_copy
 8. - va_arg
 
-![Flowcharts of the _printf created.](/image/Projet_printf_JL_Thomas.png ":printer:")
+![Flowcharts of the _printf created.](/home/bilo/image/Projet_printf_JL_Thomas.png :printer:)
 
 ##### `Resources`   :earth_africa:
 
@@ -30,6 +30,6 @@ Secrets of printf:
 
 
 
-	# :spider_web::fist_raised:
+ :spider_web: :fist_raised:
 
 `
