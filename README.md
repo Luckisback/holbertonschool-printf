@@ -16,7 +16,7 @@
 7. - va_copy
 8. - va_arg
 
-![Flowcharts of the _printf created.](./image/Projet_printf_JL_Thomas.png "Flowcharts" ):printer: 
+![Flowcharts of the _printf created.](./pictures/Projet_printf_JL_Thomas.png "Flowcharts" ):printer: 
 
 ##### `Resources`   :earth_africa:
 
