@@ -21,5 +21,6 @@ int print_int(va_list arg)
 		{
 			putchar(str[i]);
 		}
-		return (i);
+	}
+	return (i);
 }
