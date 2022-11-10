@@ -26,7 +26,7 @@
 |       %i          | print a string of characters
 |       %%          | print a percent sign (\% also works)|  
 
-![Flowcharts of the _printf created.](https://medium.com/@jlucbilo/c-printf-flowcarts-d56590a34489)    :printer: 
+[*Flowcharts of the _printf created.*](https://medium.com/@jlucbilo/c-printf-flowcarts-d56590a34489)    :printer: 
 
 ### `Resources`   :earth_africa:
 
