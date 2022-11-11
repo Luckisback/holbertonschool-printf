@@ -16,14 +16,14 @@ int print_int(va_list arg)
 
 	if (num < 0)
 	{
-		len += my_write('-');
+		len += _putchar('-');
 		num *= -1;
 	}
 	while ((num / div) > 9)
 		div *= 10;
 	while (div != 0)
 	{
-		len += my_write('0' + (num / div));
+		len += _putchar('0' + (num / div));
 		num %=  div;
 		div /= 10;
 	}
