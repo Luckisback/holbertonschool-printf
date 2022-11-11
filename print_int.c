@@ -8,19 +8,24 @@
 
 int print_int(va_list arg)
 {
-	char *str;
-	static int i;
+	long int num;
+	int len = 0;
+	long int div = 1;
 
-	str = va_arg(arg, char*);
-	if (str == NULL)
-		str = "(null)";
+	num = va_arg(arg, int);
 
-	for (i = 0; str[i] != '\0'; i++)
+	if (num < 0)
 	{
-		if ((isdigit(str[i])))
-		{
-			putchar(str[i]);
-		}
+		len += my_write('-');
+		num *= -1;
 	}
-	return (i);
+	while ((num / div) > 9)
+		div *= 10;
+	while (div != 0)
+	{
+		len += my_write('0' + (num / div));
+		num %=  div;
+		div /= 10;
+	}
+	return (len);
 }
