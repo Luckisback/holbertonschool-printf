@@ -5,6 +5,9 @@
 * A man page for your function.
 * Make sure that all options work well together.
 
+```
+```
+
 #### Authorized functions and macros
 
 1. write   : Is one of the most basic routines provided, which write data from a buffer declared by the user to a given device, such as a file
@@ -16,6 +19,8 @@
 7. va_copy : Copy contents of one va_list to another
 8. va_end  : Free a va_list
 
+```
+```
 
 ## Special Characters
 
@@ -35,7 +40,10 @@ using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
 ### Flowcharts    :printer: 
 
-[*Flowcharts of the _printf created.*](https://medium.com/@jlucbilo/c-printf-flowcarts-d56590a34489)   
+```
+[*Flowcharts of the _printf created.*](https://medium.com/@jlucbilo/c-printf-flowcarts-d56590a34489) 
+
+```
 
 ### `Resources`   :earth_africa:
 
