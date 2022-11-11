@@ -16,6 +16,7 @@
 7. va_copy : Copy contents of one va_list to another
 8. va_end  : Free a va_list
 
+
 ## Special Characters
 
 | special characters| meaning|   
@@ -26,7 +27,15 @@
 |       %i          | print a string of characters
 |       %%          | print a percent sign (\% also works)|  
 
-[*Flowcharts of the _printf created.*](https://medium.com/@jlucbilo/c-printf-flowcarts-d56590a34489)    :printer: 
+
+```
+The files should be compiled on Ubuntu 20.04 LTS using gcc, 
+using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+```
+
+### Flowcharts    :printer: 
+
+[*Flowcharts of the _printf created.*](https://medium.com/@jlucbilo/c-printf-flowcarts-d56590a34489)   
 
 ### `Resources`   :earth_africa:
 
