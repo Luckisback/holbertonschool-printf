@@ -1,12 +1,8 @@
-.\"
-.\"
 
 .TH  _PRINTF 11-09-2022 "Version 1.0" "_Printf Manual"
 
 .SH NAME  _PRINTF
           _printf - format and print data
-.\
-.\
 
 .SH SYNOPSIS
           _printf FORMAT [ARGUMENT]
@@ -22,10 +18,8 @@
 
 %%  Print percent (%) 
 
-.\"
-.\"
 .SH DESCRIPTION: The Argument List
-.\
+
 When printf processes its arguments, it starts 
 printing the characters it finds in the first argument, 
 one by one. When it finds a percent it knows it 
