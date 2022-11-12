@@ -1,9 +1,17 @@
-.\"
-.\"
 
 .TH  _PRINTF 11-09-2022 "Version 1.0" "_Printf Manual"
 
-.SH _PRINTF
+
+.SH NAME  _PRINTF
+        _printf - format and print data
+
+
+.SH SYNOPSIS
+        _printf FORMAT [ARGUMENT]
+        _printf OPTION
+
+
+.SH FORMATS:
 
 %c print a single character
 
@@ -15,9 +23,9 @@
 
 %%  Print percent (%) 
 
-.\"
-.\"
-.SH Description: The Argument List
+
+
+.SH DESCRIPTION:
 
 When printf processes its arguments, it starts 
 printing the characters it finds in the first argument, 
@@ -30,11 +38,17 @@ It is okay to include more than one format speci-
 fication in the printf string. In that case, the first 
 format specification goes with the first additional ar- 
 gument, second goes with second, and so forth. Here 
-is an example:
+is an example.
+
+
+The files will be compiled on Ubuntu 20.04 LTS using gcc, 
+using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+
+
+.SH EXEMPLE:
 int x = 5, y = 10;
 printf ( "x is %d and y is %d\n", x, y );
 
 
-
-.SH LICENCE
+.SH LICENCE:
 Copyright (c) 2022 by T. Borde & jla BILO
