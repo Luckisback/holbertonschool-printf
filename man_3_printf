@@ -10,7 +10,6 @@
         _printf FORMAT [ARGUMENT]
         _printf OPTION
 
-
 .SH FORMATS:
 
 %c print a single character
@@ -22,7 +21,6 @@
 %s print a string of characters
 
 %%  Print percent (%) 
-
 
 
 .SH DESCRIPTION:
@@ -37,8 +35,7 @@ a character at a time (from the first argument).
 It is okay to include more than one format speci- 
 fication in the printf string. In that case, the first 
 format specification goes with the first additional ar- 
-gument, second goes with second, and so forth. Here 
-is an example.
+gument, second goes with second, and so forth. 
 
 
 The files will be compiled on Ubuntu 20.04 LTS using gcc, 
@@ -49,6 +46,6 @@ using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 int x = 5, y = 10;
 printf ( "x is %d and y is %d\n", x, y );
 
+.SH LICENCE
 
-.SH LICENCE:
 Copyright (c) 2022 by T. Borde & jla BILO
