@@ -39,7 +39,6 @@ using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 ### Flowcharts    :printer: 
 
 [*Flowcharts of the _printf created.*](https://medium.com/@jlucbilo/c-printf-flowcarts-d56590a34489) 
-![Flowcharts of the _printf created.](https://medium.com/@jlucbilo/c-printf-flowcarts-d56590a34489.png) 
 
 ### `Resources`   :earth_africa:
 
