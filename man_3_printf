@@ -44,7 +44,7 @@ using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
 .SH EXEMPLE:
 int x = 5, y = 10;
-printf ( "x is %d and y is %d\n", x, y );
+_printf ( "x is %d and y is %d\n", x, y );
 
 .SH LICENCE
 
